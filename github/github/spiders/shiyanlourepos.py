@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-
+from github.items import RepoItem
 
 class ShiyanloureposSpider(scrapy.Spider):
     name = 'shiyanlourepos'
